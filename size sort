@@ -1,0 +1,1 @@
+find . -iname "*.png" -o -iname "*.jpg" | perl -e '$f=sub{`identify -format %w*%h ${\quotemeta(shift)} 2>/dev/null`};chomp&&print "$_\t".$f->($_) for sort{eval($f->($b))<=>eval($f->($a))}<>'

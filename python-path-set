@@ -1,0 +1,9 @@
+tf data recorder problem
+
+
+export PYTHONPATH=$PYTHONPATH:pwd:pwd/slim
+
+
+
+train problemm.....
+export PYTHONPATH=/home/vijesh/models/research/slim:$PYTHONPATH

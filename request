@@ -1,0 +1,1 @@
+pip3 install -r "path/to/req/file/req.txt"

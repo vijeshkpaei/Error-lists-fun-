@@ -1,0 +1,8 @@
+ problemm1::   vijesh@vijesh-Vostro-2520:~$ sudo apt-get update
+E: Malformed entry 1 in list file /etc/apt/sources.list.d/ros-latest.list (Suite)
+E: The list of sources could not be read.
+
+
+ANSWER :
+
+https://askubuntu.com/questions/911826/how-fix-a-malformed-entry-in-this-apt-file
